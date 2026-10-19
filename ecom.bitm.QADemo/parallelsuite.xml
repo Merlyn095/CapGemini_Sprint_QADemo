@@ -1,0 +1,24 @@
+
+<suite name="QADemo Parallel Suite"
+       parallel="classes"
+       thread-count="3">
+
+    <test name="QADemo Tests">
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+      <class name="QADemoProduct.QADemoProductNegativeTest"/>
+      <class name="QADemoOrderPlaced.QADemoOrderPlacedTest"/>
+      <class name="QADemoSignUp.QADemoSignUpTest"/>
+      <class name="QADemoCart.QADemoCartNegativeTest"/>
+      <class name="QADemoCheckout.QADemoCheckoutTest"/>
+      <class name="QADemoLogin.QADemoLoginNegativeTest"/>
+      <class name="QADemoLogin.QADemoLoginTest"/>
+      <class name="QADemoCart.QADemoCartTest"/>
+      <class name="QADemoCheckout.QADemoCheckoutNegactiveTest"/>
+      <class name="QADemoProduct.QADemoProduct"/>
+      <class name="QADemoSignUp.QADemoSignUpNegativeTest"/>
+    </classes>
+    </test>
+
+</suite>

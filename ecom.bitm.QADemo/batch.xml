@@ -1,0 +1,18 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="QADemoProduct.QADemoProductNegativeTest"/>
+      <class name="QADemoOrderPlaced.QADemoOrderPlacedTest"/>
+      <class name="QADemoSignUp.QADemoSignUpTest"/>
+      <class name="QADemoCart.QADemoCartNegativeTest"/>
+      <class name="QADemoCheckout.QADemoCheckoutTest"/>
+      <class name="QADemoLogin.QADemoLoginNegativeTest"/>
+      <class name="QADemoLogin.QADemoLoginTest"/>
+      <class name="QADemoCart.QADemoCartTest"/>
+      <class name="QADemoCheckout.QADemoCheckoutNegactiveTest"/>
+      <class name="QADemoProduct.QADemoProduct"/>
+      <class name="QADemoSignUp.QADemoSignUpNegativeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

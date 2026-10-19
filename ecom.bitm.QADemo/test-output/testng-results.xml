@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Open Database Connectivity]]>
+    </line>
+    <line>
+      <![CDATA[pre-condition]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Negative test passed: Product was not added without clicking Add to Car]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Order confirmed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Continue Shopping opened Product Catalog]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Order confirmed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Profile/account button clicked]]>
+    </line>
+    <line>
+      <![CDATA[My Orders page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Smoke: verify Sign Up page elements]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Sign Up link]]>
+    </line>
+    <line>
+      <![CDATA[Smoke passed: all Sign Up elements are displayed]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Sign-up form submitted with positive data]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Negative test passed: Empty cart does not show any product]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login credentials entered]]>
+    </line>
+    <line>
+      <![CDATA[Checkout page opened]]>
+    </line>
+    <line>
+      <![CDATA[Smoke passed: all Checkout elements are displayed]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Checkout page opened]]>
+    </line>
+    <line>
+      <![CDATA[Order confirmed successfully]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Order confirmed successfully]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Starting Negative Login Test]]>
+    </line>
+    <line>
+      <![CDATA[Login page initialized]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials entered]]>
+    </line>
+    <line>
+      <![CDATA[Negative login test passed: Invalid credentials did not open the catalog]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login successful. Product Catalog is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login successful. Product Catalog opened.]]>
+    </line>
+    <line>
+      <![CDATA[Product Catalog verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Shopping Cart page opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login and Cart Integration Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Continued Shopping Successfully]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Checkout Page Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to cart Page Sucesssfully]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Product item sucessfully increased ]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Checkout page opened]]>
+    </line>
+    <line>
+      <![CDATA[Checkout fields left empty]]>
+    </line>
+    <line>
+      <![CDATA[Place Order button clicked]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Product Bluetooth Speaker displayed]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully added product added in cart]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login credentials entered]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Product Catalog displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Negative test passes: Signup failed with invalid credentials ]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[post-condition]]>
+    </line>
+    <line>
+      <![CDATA[Close - DataBase Connectivity]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-19T22:53:52 IST" name="Suite" finished-at="2026-10-19T22:55:31 IST" duration-ms="99686">
+    <groups>
+      <group name="Integration">
+        <method signature="QADemoCartTest.verifyCountinueShopping(java.lang.String,java.lang.String)[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" name="verifyCountinueShopping" class="QADemoCart.QADemoCartTest"/>
+        <method signature="QADemoCartTest.verifyProceedToCheckout(java.lang.String,java.lang.String)[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" name="verifyProceedToCheckout" class="QADemoCart.QADemoCartTest"/>
+        <method signature="QADemoCheckoutTest.verifyCompleteOrderPlacement(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" name="verifyCompleteOrderPlacement" class="QADemoCheckout.QADemoCheckoutTest"/>
+        <method signature="QADemoCheckoutTest.verifybackwardnavigation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" name="verifybackwardnavigation" class="QADemoCheckout.QADemoCheckoutTest"/>
+        <method signature="QADemoLoginTest.verifyLoginProductCartIntegration(java.lang.String,java.lang.String)[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" name="verifyLoginProductCartIntegration" class="QADemoLogin.QADemoLoginTest"/>
+        <method signature="QADemoOrderPlacedTest.verifyContinueShopping(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" name="verifyContinueShopping" class="QADemoOrderPlaced.QADemoOrderPlacedTest"/>
+        <method signature="QADemoOrderPlacedTest.verifyMyOrders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" name="verifyMyOrders" class="QADemoOrderPlaced.QADemoOrderPlacedTest"/>
+        <method signature="QADemoProduct.verifyProductAddedToCart(java.lang.String,java.lang.String)[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" name="verifyProductAddedToCart" class="QADemoProduct.QADemoProduct"/>
+      </group> <!-- Integration -->
+      <group name="Functionality">
+        <method signature="QADemoCartTest.verifyProductIncrease(java.lang.String,java.lang.String)[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" name="verifyProductIncrease" class="QADemoCart.QADemoCartTest"/>
+        <method signature="QADemoCheckoutTest.verifyCheckoutFields(java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" name="verifyCheckoutFields" class="QADemoCheckout.QADemoCheckoutTest"/>
+        <method signature="QADemoLoginTest.verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" name="verifyLogin" class="QADemoLogin.QADemoLoginTest"/>
+        <method signature="QADemoOrderPlacedTest.verifyContinueShopping(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" name="verifyContinueShopping" class="QADemoOrderPlaced.QADemoOrderPlacedTest"/>
+        <method signature="QADemoOrderPlacedTest.verifyMyOrders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" name="verifyMyOrders" class="QADemoOrderPlaced.QADemoOrderPlacedTest"/>
+        <method signature="QADemoProduct.verifyProduct(java.lang.String,java.lang.String)[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" name="verifyProduct" class="QADemoProduct.QADemoProduct"/>
+        <method signature="QADemoSignUpTest.verifySignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" name="verifySignUp" class="QADemoSignUp.QADemoSignUpTest"/>
+      </group> <!-- Functionality -->
+      <group name="Negative">
+        <method signature="QADemoCartNegativeTest.verifyProductIncrease(java.lang.String,java.lang.String)[pri:0, instance:QADemoCart.QADemoCartNegativeTest@77888435]" name="verifyProductIncrease" class="QADemoCart.QADemoCartNegativeTest"/>
+        <method signature="QADemoCheckoutNegactiveTest.verifyCheckoutWithEmptyDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutNegactiveTest@34123d65]" name="verifyCheckoutWithEmptyDetails" class="QADemoCheckout.QADemoCheckoutNegactiveTest"/>
+        <method signature="QADemoLoginNegativeTest.verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:QADemoLogin.QADemoLoginNegativeTest@71d44a3]" name="verifyInvalidLogin" class="QADemoLogin.QADemoLoginNegativeTest"/>
+        <method signature="QADemoProduct.verifyProductCatalog(java.lang.String,java.lang.String)[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" name="verifyProductCatalog" class="QADemoProduct.QADemoProduct"/>
+        <method signature="QADemoProductNegativeTest.verifyProductAddedToCart(java.lang.String,java.lang.String)[pri:0, instance:QADemoProduct.QADemoProductNegativeTest@55141def]" name="verifyProductAddedToCart" class="QADemoProduct.QADemoProductNegativeTest"/>
+        <method signature="QADemoSignUpNegativeTest.verifySignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoSignUp.QADemoSignUpNegativeTest@65fb9ffc]" name="verifySignUp" class="QADemoSignUp.QADemoSignUpNegativeTest"/>
+      </group> <!-- Negative -->
+      <group name="smoke">
+        <method signature="QADemoSignUpTest.signUpPageSmokeTest()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" name="signUpPageSmokeTest" class="QADemoSignUp.QADemoSignUpTest"/>
+      </group> <!-- smoke -->
+      <group name="Smoke">
+        <method signature="QADemoCartTest.verifyProductAddedToCart(java.lang.String,java.lang.String)[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" name="verifyProductAddedToCart" class="QADemoCart.QADemoCartTest"/>
+        <method signature="QADemoCheckoutTest.verifyCheckoutFields(java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" name="verifyCheckoutFields" class="QADemoCheckout.QADemoCheckoutTest"/>
+        <method signature="QADemoLoginTest.verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" name="verifyLogin" class="QADemoLogin.QADemoLoginTest"/>
+        <method signature="QADemoSignUpTest.verifySignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" name="verifySignUp" class="QADemoSignUp.QADemoSignUpTest"/>
+      </group> <!-- Smoke -->
+      <group name="System">
+        <method signature="QADemoCheckoutTest.verifyCompleteOrderPlacement(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" name="verifyCompleteOrderPlacement" class="QADemoCheckout.QADemoCheckoutTest"/>
+        <method signature="QADemoCheckoutTest.verifybackwardnavigation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" name="verifybackwardnavigation" class="QADemoCheckout.QADemoCheckoutTest"/>
+        <method signature="QADemoOrderPlacedTest.verifyMyOrders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" name="verifyMyOrders" class="QADemoOrderPlaced.QADemoOrderPlacedTest"/>
+      </group> <!-- System -->
+    </groups>
+    <test started-at="2026-10-19T22:53:52 IST" name="Test" finished-at="2026-10-19T22:55:31 IST" duration-ms="99686">
+      <class name="QADemoOrderPlaced.QADemoOrderPlacedTest">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" started-at="2026-10-19T22:54:01 IST" name="bC" finished-at="2026-10-19T22:54:03 IST" duration-ms="1693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" started-at="2026-10-19T22:54:03 IST" name="bM" finished-at="2026-10-19T22:54:03 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyContinueShopping(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" started-at="2026-10-19T22:54:03 IST" name="verifyContinueShopping" data-provider="checkoutdata" finished-at="2026-10-19T22:54:09 IST" duration-ms="5560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ammu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gandhinagar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4242 4242 4242 4242]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[09/28]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ammuu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Order confirmed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Continue Shopping opened Product Catalog]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContinueShopping -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" started-at="2026-10-19T22:54:09 IST" name="aM" finished-at="2026-10-19T22:54:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" started-at="2026-10-19T22:54:09 IST" name="bM" finished-at="2026-10-19T22:54:09 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyMyOrders(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" started-at="2026-10-19T22:54:09 IST" name="verifyMyOrders" data-provider="checkoutdata" finished-at="2026-10-19T22:54:15 IST" duration-ms="5686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ammu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gandhinagar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4242 4242 4242 4242]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[09/28]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ammuu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Order confirmed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Profile/account button clicked]]>
+            </line>
+            <line>
+              <![CDATA[My Orders page displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMyOrders -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" started-at="2026-10-19T22:54:15 IST" name="aC" finished-at="2026-10-19T22:54:15 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoOrderPlaced.QADemoOrderPlacedTest@76505305]" started-at="2026-10-19T22:54:15 IST" name="aM" finished-at="2026-10-19T22:54:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+      </class> <!-- QADemoOrderPlaced.QADemoOrderPlacedTest -->
+      <class name="QADemoProduct.QADemoProductNegativeTest">
+        <test-method is-config="true" signature="bS()[pri:0, instance:QADemoProduct.QADemoProductNegativeTest@55141def]" started-at="2026-10-19T22:53:52 IST" name="bS" finished-at="2026-10-19T22:53:52 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open Database Connectivity]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bS -->
+        <test-method is-config="true" signature="bT()[pri:0, instance:QADemoProduct.QADemoProductNegativeTest@55141def]" started-at="2026-10-19T22:53:52 IST" name="bT" finished-at="2026-10-19T22:53:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[pre-condition]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bT -->
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoProduct.QADemoProductNegativeTest@55141def]" started-at="2026-10-19T22:53:52 IST" name="bC" finished-at="2026-10-19T22:53:55 IST" duration-ms="3017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoProduct.QADemoProductNegativeTest@55141def]" started-at="2026-10-19T22:53:55 IST" name="bM" finished-at="2026-10-19T22:54:00 IST" duration-ms="4877" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyProductAddedToCart(java.lang.String,java.lang.String)[pri:0, instance:QADemoProduct.QADemoProductNegativeTest@55141def]" started-at="2026-10-19T22:54:00 IST" name="verifyProductAddedToCart" data-provider="systemData" finished-at="2026-10-19T22:54:01 IST" duration-ms="1113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative test passed: Product was not added without clicking Add to Car]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToCart -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoProduct.QADemoProductNegativeTest@55141def]" started-at="2026-10-19T22:54:01 IST" name="aM" finished-at="2026-10-19T22:54:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoProduct.QADemoProductNegativeTest@55141def]" started-at="2026-10-19T22:54:01 IST" name="aC" finished-at="2026-10-19T22:54:01 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+        <test-method is-config="true" signature="aT()[pri:0, instance:QADemoProduct.QADemoProductNegativeTest@55141def]" started-at="2026-10-19T22:55:31 IST" name="aT" finished-at="2026-10-19T22:55:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[post-condition]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aT -->
+        <test-method is-config="true" signature="aS()[pri:0, instance:QADemoProduct.QADemoProductNegativeTest@55141def]" started-at="2026-10-19T22:55:31 IST" name="aS" finished-at="2026-10-19T22:55:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close - DataBase Connectivity]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aS -->
+      </class> <!-- QADemoProduct.QADemoProductNegativeTest -->
+      <class name="QADemoCheckout.QADemoCheckoutNegactiveTest">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutNegactiveTest@34123d65]" started-at="2026-10-19T22:55:14 IST" name="bC" finished-at="2026-10-19T22:55:15 IST" duration-ms="1667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoCheckout.QADemoCheckoutNegactiveTest@34123d65]" started-at="2026-10-19T22:55:15 IST" name="bM" finished-at="2026-10-19T22:55:16 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyCheckoutWithEmptyDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutNegactiveTest@34123d65]" started-at="2026-10-19T22:55:16 IST" name="verifyCheckoutWithEmptyDetails" data-provider="negativeCheckoutData" finished-at="2026-10-19T22:55:19 IST" duration-ms="2998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Checkout page opened]]>
+            </line>
+            <line>
+              <![CDATA[Checkout fields left empty]]>
+            </line>
+            <line>
+              <![CDATA[Place Order button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutWithEmptyDetails -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoCheckout.QADemoCheckoutNegactiveTest@34123d65]" started-at="2026-10-19T22:55:19 IST" name="aC" finished-at="2026-10-19T22:55:19 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoCheckout.QADemoCheckoutNegactiveTest@34123d65]" started-at="2026-10-19T22:55:19 IST" name="aM" finished-at="2026-10-19T22:55:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+      </class> <!-- QADemoCheckout.QADemoCheckoutNegactiveTest -->
+      <class name="QADemoLogin.QADemoLoginNegativeTest">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoLogin.QADemoLoginNegativeTest@71d44a3]" started-at="2026-10-19T22:54:44 IST" name="bC" finished-at="2026-10-19T22:54:46 IST" duration-ms="1671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoLogin.QADemoLoginNegativeTest@71d44a3]" started-at="2026-10-19T22:54:46 IST" name="bM" finished-at="2026-10-19T22:54:47 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:QADemoLogin.QADemoLoginNegativeTest@71d44a3]" started-at="2026-10-19T22:54:47 IST" name="verifyInvalidLogin" data-provider="invaliddata" finished-at="2026-10-19T22:54:50 IST" duration-ms="3307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Negative Login Test]]>
+            </line>
+            <line>
+              <![CDATA[Login page initialized]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials entered]]>
+            </line>
+            <line>
+              <![CDATA[Negative login test passed: Invalid credentials did not open the catalog]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoLogin.QADemoLoginNegativeTest@71d44a3]" started-at="2026-10-19T22:54:50 IST" name="aM" finished-at="2026-10-19T22:54:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoLogin.QADemoLoginNegativeTest@71d44a3]" started-at="2026-10-19T22:54:50 IST" name="aC" finished-at="2026-10-19T22:54:50 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+      </class> <!-- QADemoLogin.QADemoLoginNegativeTest -->
+      <class name="QADemoCart.QADemoCartNegativeTest">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoCart.QADemoCartNegativeTest@77888435]" started-at="2026-10-19T22:54:22 IST" name="bC" finished-at="2026-10-19T22:54:24 IST" duration-ms="1671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoCart.QADemoCartNegativeTest@77888435]" started-at="2026-10-19T22:54:24 IST" name="bM" finished-at="2026-10-19T22:54:24 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyProductIncrease(java.lang.String,java.lang.String)[pri:0, instance:QADemoCart.QADemoCartNegativeTest@77888435]" started-at="2026-10-19T22:54:24 IST" name="verifyProductIncrease" data-provider="systemData" finished-at="2026-10-19T22:54:25 IST" duration-ms="972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative test passed: Empty cart does not show any product]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductIncrease -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoCart.QADemoCartNegativeTest@77888435]" started-at="2026-10-19T22:54:25 IST" name="aM" finished-at="2026-10-19T22:54:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoCart.QADemoCartNegativeTest@77888435]" started-at="2026-10-19T22:54:25 IST" name="aC" finished-at="2026-10-19T22:54:25 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+      </class> <!-- QADemoCart.QADemoCartNegativeTest -->
+      <class name="QADemoSignUp.QADemoSignUpTest">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" started-at="2026-10-19T22:54:15 IST" name="bC" finished-at="2026-10-19T22:54:17 IST" duration-ms="1736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" started-at="2026-10-19T22:54:17 IST" name="bM" finished-at="2026-10-19T22:54:17 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="signUpPageSmokeTest()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" started-at="2026-10-19T22:54:17 IST" name="signUpPageSmokeTest" finished-at="2026-10-19T22:54:17 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Smoke: verify Sign Up page elements]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Sign Up link]]>
+            </line>
+            <line>
+              <![CDATA[Smoke passed: all Sign Up elements are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signUpPageSmokeTest -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" started-at="2026-10-19T22:54:17 IST" name="aM" finished-at="2026-10-19T22:54:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" started-at="2026-10-19T22:54:17 IST" name="bM" finished-at="2026-10-19T22:54:17 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifySignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" started-at="2026-10-19T22:54:17 IST" name="verifySignUp" data-provider="data" finished-at="2026-10-19T22:54:22 IST" duration-ms="4842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ammu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98978]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ammu@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ammu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sign-up form submitted with positive data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySignUp -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" started-at="2026-10-19T22:54:22 IST" name="aC" finished-at="2026-10-19T22:54:22 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@14cd1699]" started-at="2026-10-19T22:54:22 IST" name="aM" finished-at="2026-10-19T22:54:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+      </class> <!-- QADemoSignUp.QADemoSignUpTest -->
+      <class name="QADemoProduct.QADemoProduct">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:19 IST" name="bC" finished-at="2026-10-19T22:55:20 IST" duration-ms="1664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:20 IST" name="bM" finished-at="2026-10-19T22:55:21 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyProduct(java.lang.String,java.lang.String)[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:21 IST" name="verifyProduct" data-provider="systemData" finished-at="2026-10-19T22:55:22 IST" duration-ms="973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Product Bluetooth Speaker displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProduct -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:22 IST" name="aM" finished-at="2026-10-19T22:55:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:22 IST" name="bM" finished-at="2026-10-19T22:55:22 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyProductAddedToCart(java.lang.String,java.lang.String)[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:22 IST" name="verifyProductAddedToCart" data-provider="systemData" finished-at="2026-10-19T22:55:23 IST" duration-ms="1410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sucessfully added product added in cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToCart -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:23 IST" name="aM" finished-at="2026-10-19T22:55:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:23 IST" name="bM" finished-at="2026-10-19T22:55:23 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyProductCatalog(java.lang.String,java.lang.String)[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:23 IST" name="verifyProductCatalog" data-provider="systemData" finished-at="2026-10-19T22:55:24 IST" duration-ms="853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login credentials entered]]>
+            </line>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Product Catalog displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductCatalog -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:24 IST" name="aM" finished-at="2026-10-19T22:55:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoProduct.QADemoProduct@59474f18]" started-at="2026-10-19T22:55:24 IST" name="aC" finished-at="2026-10-19T22:55:24 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+      </class> <!-- QADemoProduct.QADemoProduct -->
+      <class name="QADemoLogin.QADemoLoginTest">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" started-at="2026-10-19T22:54:50 IST" name="bC" finished-at="2026-10-19T22:54:52 IST" duration-ms="1656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" started-at="2026-10-19T22:54:52 IST" name="bM" finished-at="2026-10-19T22:54:52 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" started-at="2026-10-19T22:54:52 IST" name="verifyLogin" data-provider="systemData" finished-at="2026-10-19T22:54:55 IST" duration-ms="2387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful. Product Catalog is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" started-at="2026-10-19T22:54:55 IST" name="aM" finished-at="2026-10-19T22:54:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" started-at="2026-10-19T22:54:55 IST" name="bM" finished-at="2026-10-19T22:54:55 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyLoginProductCartIntegration(java.lang.String,java.lang.String)[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" started-at="2026-10-19T22:54:55 IST" name="verifyLoginProductCartIntegration" data-provider="systemData" finished-at="2026-10-19T22:55:00 IST" duration-ms="5426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful. Product Catalog opened.]]>
+            </line>
+            <line>
+              <![CDATA[Product Catalog verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[Shopping Cart page opened successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login and Cart Integration Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginProductCartIntegration -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" started-at="2026-10-19T22:55:00 IST" name="aM" finished-at="2026-10-19T22:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoLogin.QADemoLoginTest@7b98f307]" started-at="2026-10-19T22:55:00 IST" name="aC" finished-at="2026-10-19T22:55:00 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+      </class> <!-- QADemoLogin.QADemoLoginTest -->
+      <class name="QADemoCheckout.QADemoCheckoutTest">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:25 IST" name="bC" finished-at="2026-10-19T22:54:27 IST" duration-ms="1663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:27 IST" name="bM" finished-at="2026-10-19T22:54:30 IST" duration-ms="3303" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyCheckoutFields(java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:30 IST" name="verifyCheckoutFields" data-provider="systemData" finished-at="2026-10-19T22:54:33 IST" duration-ms="2070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login credentials entered]]>
+            </line>
+            <line>
+              <![CDATA[Checkout page opened]]>
+            </line>
+            <line>
+              <![CDATA[Smoke passed: all Checkout elements are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutFields -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:33 IST" name="aM" finished-at="2026-10-19T22:54:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:33 IST" name="bM" finished-at="2026-10-19T22:54:33 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyCompleteOrderPlacement(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:33 IST" name="verifyCompleteOrderPlacement" data-provider="checkoutdata" finished-at="2026-10-19T22:54:37 IST" duration-ms="3898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ammu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gandhinagar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4242 4242 4242 4242]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[09/28]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ammuu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Checkout page opened]]>
+            </line>
+            <line>
+              <![CDATA[Order confirmed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteOrderPlacement -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:37 IST" name="aM" finished-at="2026-10-19T22:54:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:37 IST" name="bM" finished-at="2026-10-19T22:54:37 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifybackwardnavigation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:37 IST" name="verifybackwardnavigation" data-provider="checkoutdata" finished-at="2026-10-19T22:54:44 IST" duration-ms="7705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ammu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gandhinagar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4242 4242 4242 4242]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[09/28]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ammuu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Order confirmed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybackwardnavigation -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:44 IST" name="aC" finished-at="2026-10-19T22:54:44 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@73a1e9a9]" started-at="2026-10-19T22:54:44 IST" name="aM" finished-at="2026-10-19T22:54:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+      </class> <!-- QADemoCheckout.QADemoCheckoutTest -->
+      <class name="QADemoCart.QADemoCartTest">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:00 IST" name="bC" finished-at="2026-10-19T22:55:02 IST" duration-ms="1680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:02 IST" name="bM" finished-at="2026-10-19T22:55:02 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyCountinueShopping(java.lang.String,java.lang.String)[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:02 IST" name="verifyCountinueShopping" data-provider="systemData" finished-at="2026-10-19T22:55:04 IST" duration-ms="2265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Continued Shopping Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCountinueShopping -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:04 IST" name="aM" finished-at="2026-10-19T22:55:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:05 IST" name="bM" finished-at="2026-10-19T22:55:05 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyProceedToCheckout(java.lang.String,java.lang.String)[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:05 IST" name="verifyProceedToCheckout" data-provider="systemData" finished-at="2026-10-19T22:55:09 IST" duration-ms="3973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Checkout Page Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProceedToCheckout -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:09 IST" name="aM" finished-at="2026-10-19T22:55:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:09 IST" name="bM" finished-at="2026-10-19T22:55:09 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyProductAddedToCart(java.lang.String,java.lang.String)[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:09 IST" name="verifyProductAddedToCart" data-provider="systemData" finished-at="2026-10-19T22:55:10 IST" duration-ms="1248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to cart Page Sucesssfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToCart -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:10 IST" name="aM" finished-at="2026-10-19T22:55:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:10 IST" name="bM" finished-at="2026-10-19T22:55:10 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyProductIncrease(java.lang.String,java.lang.String)[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:10 IST" name="verifyProductIncrease" data-provider="systemData" finished-at="2026-10-19T22:55:13 IST" duration-ms="3283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Product item sucessfully increased ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductIncrease -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:13 IST" name="aM" finished-at="2026-10-19T22:55:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoCart.QADemoCartTest@4802796d]" started-at="2026-10-19T22:55:13 IST" name="aC" finished-at="2026-10-19T22:55:14 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+      </class> <!-- QADemoCart.QADemoCartTest -->
+      <class name="QADemoSignUp.QADemoSignUpNegativeTest">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoSignUp.QADemoSignUpNegativeTest@65fb9ffc]" started-at="2026-10-19T22:55:24 IST" name="bC" finished-at="2026-10-19T22:55:26 IST" duration-ms="1645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoSignUp.QADemoSignUpNegativeTest@65fb9ffc]" started-at="2026-10-19T22:55:26 IST" name="bM" finished-at="2026-10-19T22:55:26 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifySignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoSignUp.QADemoSignUpNegativeTest@65fb9ffc]" started-at="2026-10-19T22:55:26 IST" name="verifySignUp" data-provider="data1" finished-at="2026-10-19T22:55:31 IST" duration-ms="4915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9110811450]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative test passes: Signup failed with invalid credentials ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySignUp -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoSignUp.QADemoSignUpNegativeTest@65fb9ffc]" started-at="2026-10-19T22:55:31 IST" name="aM" finished-at="2026-10-19T22:55:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoSignUp.QADemoSignUpNegativeTest@65fb9ffc]" started-at="2026-10-19T22:55:31 IST" name="aC" finished-at="2026-10-19T22:55:31 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+      </class> <!-- QADemoSignUp.QADemoSignUpNegativeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
