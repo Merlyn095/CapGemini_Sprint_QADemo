@@ -58,8 +58,12 @@ public class QADemoCheckoutTest extends BaseClass {
 		
 		Assert.assertTrue(checkout.getPlaceOrderButton().isDisplayed(), "Place Order button is not displayed");
 		Reporter.log("Smoke passed: all Checkout elements are displayed", true);
-		checkout.getBackToCartLink().click();
-	    cart.getClearCart().click();
+		checkout.getCartcc().click();
+		cart.getClearCart().click();
+		Assert.assertEquals(cart.getEmptyCartMessage().isDisplayed(),true);
+		wait.until(ExpectedConditions.visibilityOf(cart.getEmptyCartMessage()));
+        Reporter.log("Cart cleared successfully", true);
+	    //cart.getClearCart().click();
         
         order.getLogoutButton().click();
         

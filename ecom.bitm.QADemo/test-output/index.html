@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="QADemoCheckout.QADemoCheckoutTest" class="method navigator-link" hash-for-method="verifyCheckoutFields(standard_user, standard123)">verifyCheckoutFields(standard_user, standard123)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="QADemoSignUp.QADemoSignUpTest" class="method navigator-link" hash-for-method="signUpPageSmokeTest">signUpPageSmokeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="QADemoSignUp.QADemoSignUpTest" class="method navigator-link" hash-for-method="verifySignUp(ammu, 98978, Ammu@123, Ammu@123)">verifySignUp(ammu, 98978, Ammu@123, Ammu@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,15 +126,22 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">QADemoCheckout.QADemoCheckoutTest</span>
+              <span class="class-name">QADemoSignUp.QADemoSignUpTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCheckoutFields(standard_user, standard123)">
-                  </a> <!-- verifyCheckoutFields(standard_user, standard123) -->
-                  <span class="method-name">verifyCheckoutFields</span>
-                  <span class="parameters">(standard_user,standard123)</span>
+                  <a name="signUpPageSmokeTest">
+                  </a> <!-- signUpPageSmokeTest -->
+                  <span class="method-name">signUpPageSmokeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUp(ammu, 98978, Ammu@123, Ammu@123)">
+                  </a> <!-- verifySignUp(ammu, 98978, Ammu@123, Ammu@123) -->
+                  <span class="method-name">verifySignUp</span>
+                  <span class="parameters">(ammu,98978,Ammu@123,Ammu@123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +149,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/_9/bmrcjmxd7h55tphnrb7dqnh40000gn/T/testng-eclipse-1259309223/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/_9/bmrcjmxd7h55tphnrb7dqnh40000gn/T/testng-eclipse-1130517722/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,11 +158,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;QADemoCheckout.QADemoCheckoutTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;verifyCheckoutFields&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- QADemoCheckout.QADemoCheckoutTest --&gt;
+      &lt;class name=&quot;QADemoSignUp.QADemoSignUpTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -178,7 +186,7 @@
               <span class="test-group-name">Functionality</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verifyCheckoutFields</span>
+                <span class="method-in-group-name">verifySignUp</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -186,7 +194,7 @@
               <span class="test-group-name">Smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verifyCheckoutFields</span>
+                <span class="method-in-group-name">signUpPageSmokeTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -206,16 +214,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyCheckoutFields')
-data.setCell(0, 2, 'QADemoCheckout.QADemoCheckoutTest')
-data.setCell(0, 3, 2431);
+data.setCell(0, 1, 'verifySignUp')
+data.setCell(0, 2, 'QADemoSignUp.QADemoSignUpTest')
+data.setCell(0, 3, 5126);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'signUpPageSmokeTest')
+data.setCell(1, 2, 'QADemoSignUp.QADemoSignUpTest')
+data.setCell(1, 3, 339);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -227,29 +239,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyCheckoutFields(standard_user, standard123)</span>
+              <span class="reporter-method-name">signUpPageSmokeTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Login credentials entered</span>
-                <span class="reporter-method-output">Checkout page opened</span>
-                <span class="reporter-method-output">Smoke passed: all Checkout elements are displayed</span>
+                <span class="reporter-method-output">Smoke: verify Sign Up page elements</span>
+                <span class="reporter-method-output">Clicked Sign Up link</span>
+                <span class="reporter-method-output">Smoke passed: all Sign Up elements are displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySignUp(ammu, 98978, Ammu@123, Ammu@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sign-up form submitted with positive data</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">QADemoCheckout.QADemoCheckoutTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifybackwardnavigation</span>
-                <br/>
-                <span class="ignored-method-name">verifyCompleteOrderPlacement</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -258,42 +267,54 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">QADemoCheckout.QADemoCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">QADemoSignUp.QADemoSignUpTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">bS</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">bT</span>
-                <span class="method-start">12 ms</span>
+                <span class="method-start">10 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">bC(chrome)</span>
-                <span class="method-start">21 ms</span>
+                <span class="method-start">15 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">bM</span>
-                <span class="method-start">13617 ms</span>
+                <span class="method-start">2894 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyCheckoutFields(standard_user, standard123)</span>
-                <span class="method-start">17090 ms</span>
+                <span class="method-name">signUpPageSmokeTest</span>
+                <span class="method-start">6317 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">aM</span>
-                <span class="method-start">19525 ms</span>
+                <span class="method-start">6658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bM</span>
+                <span class="method-start">7065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUp(ammu, 98978, Ammu@123, Ammu@123)</span>
+                <span class="method-start">7225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aM</span>
+                <span class="method-start">12353 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">aC</span>
-                <span class="method-start">19528 ms</span>
+                <span class="method-start">12356 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">aT</span>
-                <span class="method-start">19652 ms</span>
+                <span class="method-start">12454 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">aS</span>
-                <span class="method-start">19676 ms</span>
+                <span class="method-start">12473 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

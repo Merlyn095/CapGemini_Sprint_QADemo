@@ -4,19 +4,19 @@
   <test thread-count="5" name="Test(failed)">
     <groups>
       <run>
-        <include name="Negative"/>
+        <include name="Smoke"/>
       </run>
     </groups>
     <classes>
-      <class name="QADemoCheckout.QADemoCheckoutNegactiveTest">
+      <class name="QADemoSignUp.QADemoSignUpTest">
         <methods>
           <include name="bM"/>
+          <include name="verifySignUp" invocation-numbers="0"/>
           <include name="aM"/>
-          <include name="verifyCheckoutWithEmptyDetails" invocation-numbers="0"/>
           <include name="bC"/>
           <include name="aC"/>
         </methods>
-      </class> <!-- QADemoCheckout.QADemoCheckoutNegactiveTest -->
+      </class> <!-- QADemoSignUp.QADemoSignUpTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

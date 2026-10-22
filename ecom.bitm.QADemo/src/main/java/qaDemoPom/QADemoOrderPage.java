@@ -72,7 +72,7 @@ public class QADemoOrderPage {
 	}
 
 	public WebElement getLogoutButton() {
-		return logoutButton;
+		return wait.until(ExpectedConditions.elementToBeClickable(logoutButton));
 	}
 
 

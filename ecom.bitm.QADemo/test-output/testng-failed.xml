@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="classes" name="Failed suite [QADemo Parallel Suite]">
-  <test thread-count="3" parallel="classes" name="QADemo Tests(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="QADemoCheckout.QADemoCheckoutTest">
+      <class name="QADemoSignUp.QADemoSignUpTest">
         <methods>
           <include name="bM"/>
-          <include name="verifybackwardnavigation" invocation-numbers="0"/>
+          <include name="verifySignUp" invocation-numbers="0"/>
           <include name="aM"/>
           <include name="aT"/>
           <include name="bC"/>
           <include name="bS"/>
-          <include name="verifyLoginAndProductCatalog" invocation-numbers="0"/>
           <include name="aC"/>
           <include name="bT"/>
           <include name="aS"/>
         </methods>
-      </class> <!-- QADemoCheckout.QADemoCheckoutTest -->
+      </class> <!-- QADemoSignUp.QADemoSignUpTest -->
     </classes>
-  </test> <!-- QADemo Tests(failed) -->
-</suite> <!-- Failed suite [QADemo Parallel Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

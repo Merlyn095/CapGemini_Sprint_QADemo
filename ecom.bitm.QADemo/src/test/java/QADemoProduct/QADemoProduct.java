@@ -18,7 +18,7 @@ import qaDemoPom.QADemoOrderPage;
 import qaDemoPom.QADemoPoductCatalog;
 
 public class QADemoProduct extends BaseClass {
-	@Test(groups = {"Negative"},dataProvider = "systemData",dataProviderClass = DataProviderUtility.class)
+	@Test(groups = {"Smoke"},dataProvider = "systemData",dataProviderClass = DataProviderUtility.class)
 	    public void verifyProductCatalog(String Username, String Password) {
 
 	        WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(15));

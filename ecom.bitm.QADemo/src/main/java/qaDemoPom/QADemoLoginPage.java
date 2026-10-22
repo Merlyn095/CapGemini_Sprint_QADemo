@@ -1,15 +1,22 @@
 package qaDemoPom;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class QADemoLoginPage {
 	WebDriver driver;
+	WebDriverWait wait;
 
     public QADemoLoginPage(WebDriver driver) {
         this.driver = driver;
+        this.wait = new WebDriverWait(
+                driver, Duration.ofSeconds(15));
         PageFactory.initElements(driver, this);
     }
 
@@ -40,17 +47,17 @@ public class QADemoLoginPage {
 	}
 
 	public WebElement getSignInButton() {
-		return signInButton;
+		return wait.until(ExpectedConditions.elementToBeClickable(signInButton));
 	}
 	
 	 public void login(String email, String password) {
-		 signInLink.click();
-		 emailField.clear();
-		 emailField.sendKeys(email);
-		 passwordField.clear();
-		 passwordField.sendKeys(password);
-		 signInButton.click();
-		   
+		 getSignInLink().click();
+		 getEmailField().clear();
+		 getEmailField().sendKeys(email);
+		 getPasswordField().clear();
+		 getPasswordField().sendKeys(password);
+		 getSignInButton().submit();
+		  
 	    }
 
 

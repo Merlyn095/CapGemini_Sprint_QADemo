@@ -80,16 +80,19 @@ public class QADemoSignUpPage {
 	}
 
 	public WebElement getSignUpButton() {
-		return wait.until(
-		        ExpectedConditions.elementToBeClickable(signUpButton));
+		return signUpButton;
 	}
 	
 	public void registerUser(String email, String phoneno,  String password, String confirmPassword) {
-		signUpLink.click();
-		emailField.sendKeys(email);
-		phoneField.sendKeys(phoneno);
-		passwordField.sendKeys(password);
-		confirmPasswordField.sendKeys(confirmPassword);
+		getSignUpLink().click();
+		getEmailField().clear();
+		getEmailField().sendKeys(email);
+		getPhoneField().clear();
+		getPhoneField().sendKeys(phoneno);
+		getPasswordField().clear();
+		getPasswordField().sendKeys(password);
+		getConfirmPasswordField().clear();
+		getConfirmPasswordField().sendKeys(confirmPassword);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
 		// Scroll the button into the visible area
@@ -106,7 +109,7 @@ public class QADemoSignUpPage {
 		));
 
 		wait.until(ExpectedConditions.elementToBeClickable(signUpButton));
-		signUpButton.click();	
+		signUpButton.click();
  
 }
     

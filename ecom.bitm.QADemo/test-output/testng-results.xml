@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Open Database Connectivity]]>
@@ -14,13 +14,22 @@
       <![CDATA[Before Method]]>
     </line>
     <line>
-      <![CDATA[Login credentials entered]]>
+      <![CDATA[Smoke: verify Sign Up page elements]]>
     </line>
     <line>
-      <![CDATA[Checkout page opened]]>
+      <![CDATA[Clicked Sign Up link]]>
     </line>
     <line>
-      <![CDATA[Smoke passed: all Checkout elements are displayed]]>
+      <![CDATA[Smoke passed: all Sign Up elements are displayed]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Sign-up form submitted with positive data]]>
     </line>
     <line>
       <![CDATA[After Method]]>
@@ -35,32 +44,32 @@
       <![CDATA[Close - DataBase Connectivity]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-19T23:48:59 IST" name="Default suite" finished-at="2026-10-19T23:49:18 IST" duration-ms="19648">
+  <suite started-at="2026-10-22T20:29:51 IST" name="Default suite" finished-at="2026-10-22T20:30:04 IST" duration-ms="12447">
     <groups>
       <group name="Functionality">
-        <method signature="QADemoCheckoutTest.verifyCheckoutFields(java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" name="verifyCheckoutFields" class="QADemoCheckout.QADemoCheckoutTest"/>
+        <method signature="QADemoSignUpTest.verifySignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" name="verifySignUp" class="QADemoSignUp.QADemoSignUpTest"/>
       </group> <!-- Functionality -->
       <group name="Smoke">
-        <method signature="QADemoCheckoutTest.verifyCheckoutFields(java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" name="verifyCheckoutFields" class="QADemoCheckout.QADemoCheckoutTest"/>
+        <method signature="QADemoSignUpTest.signUpPageSmokeTest()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" name="signUpPageSmokeTest" class="QADemoSignUp.QADemoSignUpTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-10-19T23:48:59 IST" name="Default test" finished-at="2026-10-19T23:49:18 IST" duration-ms="19648">
-      <class name="QADemoCheckout.QADemoCheckoutTest">
-        <test-method is-config="true" signature="bS()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" started-at="2026-10-19T23:48:59 IST" name="bS" finished-at="2026-10-19T23:48:59 IST" duration-ms="5" status="PASS">
+    <test started-at="2026-10-22T20:29:51 IST" name="Default test" finished-at="2026-10-22T20:30:04 IST" duration-ms="12447">
+      <class name="QADemoSignUp.QADemoSignUpTest">
+        <test-method is-config="true" signature="bS()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:29:51 IST" name="bS" finished-at="2026-10-22T20:29:51 IST" duration-ms="7" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Database Connectivity]]>
             </line>
           </reporter-output>
         </test-method> <!-- bS -->
-        <test-method is-config="true" signature="bT()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" started-at="2026-10-19T23:48:59 IST" name="bT" finished-at="2026-10-19T23:48:59 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="bT()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:29:51 IST" name="bT" finished-at="2026-10-22T20:29:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[pre-condition]]>
             </line>
           </reporter-output>
         </test-method> <!-- bT -->
-        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" started-at="2026-10-19T23:48:59 IST" name="bC" finished-at="2026-10-19T23:49:12 IST" duration-ms="13198" status="PASS">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:29:51 IST" name="bC" finished-at="2026-10-22T20:29:54 IST" duration-ms="2875" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,67 +83,98 @@
             </line>
           </reporter-output>
         </test-method> <!-- bC -->
-        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" started-at="2026-10-19T23:49:12 IST" name="bM" finished-at="2026-10-19T23:49:16 IST" duration-ms="3472" status="PASS">
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:29:54 IST" name="bM" finished-at="2026-10-22T20:29:57 IST" duration-ms="3422" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method]]>
             </line>
           </reporter-output>
         </test-method> <!-- bM -->
-        <test-method signature="verifyCheckoutFields(java.lang.String,java.lang.String)[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" started-at="2026-10-19T23:49:16 IST" name="verifyCheckoutFields" data-provider="systemData" finished-at="2026-10-19T23:49:18 IST" duration-ms="2431" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[standard123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="signUpPageSmokeTest()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:29:57 IST" name="signUpPageSmokeTest" finished-at="2026-10-22T20:29:58 IST" duration-ms="339" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Login credentials entered]]>
+              <![CDATA[Smoke: verify Sign Up page elements]]>
             </line>
             <line>
-              <![CDATA[Checkout page opened]]>
+              <![CDATA[Clicked Sign Up link]]>
             </line>
             <line>
-              <![CDATA[Smoke passed: all Checkout elements are displayed]]>
+              <![CDATA[Smoke passed: all Sign Up elements are displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyCheckoutFields -->
-        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" started-at="2026-10-19T23:49:18 IST" name="aM" finished-at="2026-10-19T23:49:18 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- signUpPageSmokeTest -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:29:58 IST" name="aM" finished-at="2026-10-22T20:29:58 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method]]>
             </line>
           </reporter-output>
         </test-method> <!-- aM -->
-        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" started-at="2026-10-19T23:49:18 IST" name="aC" finished-at="2026-10-19T23:49:18 IST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="bM()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:29:58 IST" name="bM" finished-at="2026-10-22T20:29:58 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifySignUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:29:58 IST" name="verifySignUp" data-provider="data" finished-at="2026-10-22T20:30:04 IST" duration-ms="5126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ammu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98978]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ammu@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ammu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Sign-up form submitted with positive data]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySignUp -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:30:04 IST" name="aM" finished-at="2026-10-22T20:30:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:30:04 IST" name="aC" finished-at="2026-10-22T20:30:04 IST" duration-ms="97" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- aC -->
-        <test-method is-config="true" signature="aT()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" started-at="2026-10-19T23:49:18 IST" name="aT" finished-at="2026-10-19T23:49:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="aT()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:30:04 IST" name="aT" finished-at="2026-10-22T20:30:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[post-condition]]>
             </line>
           </reporter-output>
         </test-method> <!-- aT -->
-        <test-method is-config="true" signature="aS()[pri:0, instance:QADemoCheckout.QADemoCheckoutTest@235834f2]" started-at="2026-10-19T23:49:18 IST" name="aS" finished-at="2026-10-19T23:49:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="aS()[pri:0, instance:QADemoSignUp.QADemoSignUpTest@1aafa419]" started-at="2026-10-22T20:30:04 IST" name="aS" finished-at="2026-10-22T20:30:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close - DataBase Connectivity]]>
             </line>
           </reporter-output>
         </test-method> <!-- aS -->
-      </class> <!-- QADemoCheckout.QADemoCheckoutTest -->
+      </class> <!-- QADemoSignUp.QADemoSignUpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

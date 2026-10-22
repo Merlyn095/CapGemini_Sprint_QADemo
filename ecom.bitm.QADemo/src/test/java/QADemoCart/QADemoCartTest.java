@@ -62,6 +62,10 @@ public class QADemoCartTest  extends BaseClass{
 		Assert.assertEquals(cart.getNumber().getText(),"2");
 		Reporter.log("Product item sucessfully increased ",true);
 		cart.getClearCart().click();
+		Assert.assertEquals(cart.getEmptyCartMessage().isDisplayed(),true);
+		wait.until(ExpectedConditions.visibilityOf(cart.getEmptyCartMessage()));
+
+	    Reporter.log("Cart cleared successfully", true);
 		Thread.sleep(2000);
 		order.getLogoutButton().click();
 		
@@ -88,7 +92,12 @@ public class QADemoCartTest  extends BaseClass{
 		product.getCartIcon().click();
 		Assert.assertEquals(product.getCartIcon().getText(),"2");
 		Reporter.log("Continued Shopping Successfully",true);
+		
 		cart.getClearCart().click();
+		Assert.assertEquals(cart.getEmptyCartMessage().isDisplayed(),true);
+		wait.until(ExpectedConditions.visibilityOf(cart.getEmptyCartMessage()));
+
+	    Reporter.log("Cart cleared successfully", true);
 		//Thread.sleep(2000);
         order.getLogoutButton().click();
 			

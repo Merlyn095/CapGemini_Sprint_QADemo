@@ -38,7 +38,7 @@ public class QADemoPoductCatalog {
     @FindBy(xpath="//button[@data-testid='product-add-to-cart-button']")
     private WebElement addToCart;
     
-    @FindBy(xpath="//button[@data-testid='product-add-to-cart-3']")
+    @FindBy(xpath="//button[@data-testid='product-add-to-cart-15']")
     private WebElement addbutton;
     
     

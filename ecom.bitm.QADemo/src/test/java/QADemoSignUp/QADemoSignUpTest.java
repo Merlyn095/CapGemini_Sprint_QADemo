@@ -15,7 +15,7 @@ import qaDemoPom.QADemoSignUpPage;
 
 public class QADemoSignUpTest extends BaseClass {
 	
-	@Test(groups = "smoke")
+	@Test(groups = "Smoke")
 	public void signUpPageSmokeTest() {
 		Reporter.log("Smoke: verify Sign Up page elements", true);
 		QADemoSignUpPage sp = new QADemoSignUpPage(driver);
@@ -29,12 +29,11 @@ public class QADemoSignUpTest extends BaseClass {
         Assert.assertEquals(sp.getConfirmPasswordField().isDisplayed(), true);
         Assert.assertEquals(sp.getSignUpButton().isDisplayed(),true);
 	
-		
 		Reporter.log("Smoke passed: all Sign Up elements are displayed", true);
 	}
 	
 	@Test(
-	        groups = {"Smoke", "Functionality"},
+	        groups = {"Functionality"},
 	        dataProvider ="data",
 	        dataProviderClass = DataProviderUtility.class
 	    )
