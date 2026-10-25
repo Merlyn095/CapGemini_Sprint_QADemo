@@ -4,20 +4,32 @@
   <test thread-count="3" parallel="classes" name="QADemo Tests(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="QADemoCheckout.QADemoCheckoutTest">
+      <class name="QADemoCheckout.QADemoCheckoutNegactiveTest">
         <methods>
           <include name="bM"/>
-          <include name="verifybackwardnavigation" invocation-numbers="0"/>
           <include name="aM"/>
           <include name="aT"/>
+          <include name="verifyCheckoutWithEmptyDetails" invocation-numbers="0"/>
           <include name="bC"/>
           <include name="bS"/>
-          <include name="verifyLoginAndProductCatalog" invocation-numbers="0"/>
           <include name="aC"/>
           <include name="bT"/>
           <include name="aS"/>
         </methods>
-      </class> <!-- QADemoCheckout.QADemoCheckoutTest -->
+      </class> <!-- QADemoCheckout.QADemoCheckoutNegactiveTest -->
+      <class name="QADemoProduct.QADemoProduct">
+        <methods>
+          <include name="bM"/>
+          <include name="verifyProduct" invocation-numbers="0"/>
+          <include name="aM"/>
+          <include name="aT"/>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="bT"/>
+          <include name="aS"/>
+          <include name="aC"/>
+        </methods>
+      </class> <!-- QADemoProduct.QADemoProduct -->
     </classes>
   </test> <!-- QADemo Tests(failed) -->
 </suite> <!-- Failed suite [QADemo Parallel Suite] -->

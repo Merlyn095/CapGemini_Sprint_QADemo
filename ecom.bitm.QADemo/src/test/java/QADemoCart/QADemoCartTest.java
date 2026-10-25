@@ -24,7 +24,7 @@ import qaDemoPom.QADemoPoductCatalog;
 
 public class QADemoCartTest  extends BaseClass{
 	
-    @Test(groups = {"Smoke"},dataProvider = "systemData",dataProviderClass = DataProviderUtility.class)
+    @Test(groups = {"Smoke"},dataProvider = "systemData",dataProviderClass = DataProviderUtility.class,priority=1)
 	
 	public void verifyProductAddedToCart(String Username, String Password) {
 		WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -35,16 +35,19 @@ public class QADemoCartTest  extends BaseClass{
         
 		login.login(Username, Password);
 		wait.until(ExpectedConditions.urlContains("/catalog"));
-		product.getProduct().click();
+		product.clickProduct(9);
 		product.getAddToCart().click();
 		product.getCartIcon().click();
 		Assert.assertEquals(cart.getShoppingCartHeading().isDisplayed(), true);
 		Reporter.log("Navigated to cart Page Sucesssfully",true);
 		cart.getClearCart().click();
+		Assert.assertEquals(cart.getEmptyCartMessage().isDisplayed(),true);
+		wait.until(ExpectedConditions.visibilityOf(cart.getEmptyCartMessage()));
+        Reporter.log("Cart cleared successfully", true);
 		order.getLogoutButton().click();
 		
 	}
-    @Test(groups = {"Functionality"},dataProvider = "systemData",dataProviderClass = DataProviderUtility.class)
+    @Test(groups = {"Functionality"},dataProvider = "systemData",dataProviderClass = DataProviderUtility.class,priority=2)
     public void verifyProductIncrease(String Username, String Password) throws InterruptedException {
 		WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(15));
         QADemoLoginPage login = new QADemoLoginPage(driver);
@@ -54,7 +57,7 @@ public class QADemoCartTest  extends BaseClass{
         
 		login.login(Username, Password);
 		wait.until(ExpectedConditions.urlContains("/catalog"));
-		product.getProduct().click();
+		product.clickProduct(1);
 		product.getAddToCart().click();
 		product.getCartIcon().click();
 		Assert.assertEquals(cart.getShoppingCartHeading().isDisplayed(), true);
@@ -64,14 +67,13 @@ public class QADemoCartTest  extends BaseClass{
 		cart.getClearCart().click();
 		Assert.assertEquals(cart.getEmptyCartMessage().isDisplayed(),true);
 		wait.until(ExpectedConditions.visibilityOf(cart.getEmptyCartMessage()));
-
-	    Reporter.log("Cart cleared successfully", true);
+        Reporter.log("Cart cleared successfully", true);
 		Thread.sleep(2000);
 		order.getLogoutButton().click();
 		
 	}
     
-    @Test(groups = {"Integration"},dataProvider = "systemData",dataProviderClass = DataProviderUtility.class)
+    @Test(groups = {"Integration"},dataProvider = "systemData",dataProviderClass = DataProviderUtility.class,priority=3)
     public void verifyCountinueShopping(String Username, String Password) throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         
@@ -82,28 +84,28 @@ public class QADemoCartTest  extends BaseClass{
         
 		login.login(Username, Password);
 		wait.until(ExpectedConditions.urlContains("/catalog"));
-		product.getProduct().click();
+		product.clickProduct(13);
 		product.getAddToCart().click();
 		product.getCartIcon().click();
 		Assert.assertEquals(cart.getShoppingCartHeading().isDisplayed(), true);		
 		
 		cart.getContinueshopping().click();
-		product.getAddbutton().click();
+		product.clickProduct(3);
+		product.getAddToCart().click();
 		product.getCartIcon().click();
 		Assert.assertEquals(product.getCartIcon().getText(),"2");
 		Reporter.log("Continued Shopping Successfully",true);
-		
+		wait.until(ExpectedConditions.urlContains("/cart"));
 		cart.getClearCart().click();
 		Assert.assertEquals(cart.getEmptyCartMessage().isDisplayed(),true);
 		wait.until(ExpectedConditions.visibilityOf(cart.getEmptyCartMessage()));
-
-	    Reporter.log("Cart cleared successfully", true);
-		//Thread.sleep(2000);
+		Reporter.log("Cart cleared successfully", true);
+		Thread.sleep(2000);
         order.getLogoutButton().click();
 			
 	}
     
-    @Test(groups = {"Integration"},dataProvider = "systemData",dataProviderClass = DataProviderUtility.class)
+    @Test(groups = {"Integration"},dataProvider = "systemData",dataProviderClass = DataProviderUtility.class,priority=4)
     public void verifyProceedToCheckout(String Username, String Password) throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         
@@ -115,7 +117,7 @@ public class QADemoCartTest  extends BaseClass{
         
 		login.login(Username, Password);
 		wait.until(ExpectedConditions.urlContains("/catalog"));
-		product.getProduct().click();
+		product.clickProduct(7);
 		product.getAddToCart().click();
 		product.getCartIcon().click();
 		Assert.assertEquals(cart.getShoppingCartHeading().isDisplayed(), true);	

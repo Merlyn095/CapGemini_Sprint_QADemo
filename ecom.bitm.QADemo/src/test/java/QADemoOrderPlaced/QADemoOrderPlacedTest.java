@@ -50,12 +50,10 @@ public class QADemoOrderPlacedTest extends BaseClass {
         login.login(username, password);
         wait.until(ExpectedConditions.urlContains("/catalog"));
         Reporter.log("Login successful", true);
-        wait.until(ExpectedConditions.elementToBeClickable(
-                product.getProduct())).click();
-
-        wait.until(ExpectedConditions.elementToBeClickable(
-                product.getAddToCart())).click();
+        product.clickProduct(1);
+        product.getAddToCart().click();
         Reporter.log("Product added to cart", true);
+        Assert.assertEquals(driver.getCurrentUrl().contains("products/"),true);
         product.getCartIcon().click();
         wait.until(ExpectedConditions.urlContains("/cart"));
         cart.getProceedToCheckoutButton().click();
@@ -102,7 +100,7 @@ public class QADemoOrderPlacedTest extends BaseClass {
 
             login.login(username, password);
             wait.until(ExpectedConditions.urlContains("/catalog"));
-            product.getProduct().click();
+            product.clickProduct(1);
             product.getAddToCart().click();
             product.getCartIcon().click();
             wait.until(ExpectedConditions.urlContains("/cart"));

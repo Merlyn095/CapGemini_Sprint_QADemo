@@ -31,7 +31,7 @@ public class QADemoProductNegativeTest  extends BaseClass{
         
 		login.login(Username, Password);
 		wait.until(ExpectedConditions.urlContains("/catalog"));
-		product.getProduct().click();
+		product.clickProduct(7);
 		
 		product.getCartIcon().click();
 		AssertJUnit.assertEquals(cart.getEmptyCartMessage().isDisplayed(), true);

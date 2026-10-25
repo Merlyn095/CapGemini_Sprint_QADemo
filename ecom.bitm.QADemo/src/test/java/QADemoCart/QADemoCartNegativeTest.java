@@ -29,7 +29,7 @@ public class QADemoCartNegativeTest extends BaseClass{
         
 		login.login(Username, Password);
 		wait.until(ExpectedConditions.urlContains("/catalog"));
-		product.getProduct().click();
+		product.clickProduct(1);
 	    Assert.assertEquals(product.getCartIcon().getText(),"");
 	    Reporter.log("Negative test passed: Empty cart does not show any product",true);
 		

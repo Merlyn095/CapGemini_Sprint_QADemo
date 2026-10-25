@@ -40,13 +40,13 @@ public class QADemoCartPage {
     @FindBy(xpath="//button[text()='Continue Shopping']")
     private WebElement continueshopping;
     
-    @FindBy(xpath="//button[@data-testid='cart-item-increase-4']")
+    @FindBy(xpath="//button[contains(@data-testid,'cart-item-increase')]")
     private WebElement increaseProduct;
     
     @FindBy(xpath="//span[@class='w-10 text-center font-medium']")
     private WebElement number;
     
-    @FindBy(xpath="//p[@data-testid='cart-item-description-4']")
+    @FindBy(xpath="//p[contains(@data-testid,'cart-item-description')]")
     private WebElement cartItem;
     
     @FindBy(xpath="//button[text()='Clear Cart']")

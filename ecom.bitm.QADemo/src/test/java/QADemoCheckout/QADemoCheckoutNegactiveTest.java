@@ -43,7 +43,7 @@ public class QADemoCheckoutNegactiveTest extends BaseClass {
         login.login(username, password);
         wait.until(ExpectedConditions.urlContains("/catalog"));
         Reporter.log("Login successful", true);
-        product.getProduct().click();
+        product.clickProduct(7);
         wait.until(ExpectedConditions.elementToBeClickable(product.getAddToCart())).click();
         Reporter.log("Product added to cart", true);
         wait.until(ExpectedConditions.elementToBeClickable(product.getCartIcon())).click();

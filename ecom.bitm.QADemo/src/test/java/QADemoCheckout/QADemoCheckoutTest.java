@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -28,7 +29,7 @@ public class QADemoCheckoutTest extends BaseClass {
         dataProviderClass = DataProviderUtility.class
     )
     public void verifyCheckoutFields(
-            String Username, String Password) {
+            String Username, String Password) throws InterruptedException {
 
         WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(15));
         QADemoLoginPage login = new QADemoLoginPage(driver);
@@ -38,10 +39,12 @@ public class QADemoCheckoutTest extends BaseClass {
         QADemoCheckOutPage checkout = new QADemoCheckOutPage(driver);
 
         login.login(Username, Password);
-        Reporter.log("Login credentials entered", true);
         wait.until(ExpectedConditions.urlContains("/catalog"));
         Assert.assertTrue(driver.getCurrentUrl().contains("/catalog"),"Login failed");
-        product.getProduct().click();
+        Reporter.log("Login credentials entered", true);
+        
+        product.clickProduct(7);
+        
         product.getAddToCart().click();
         product.getCartIcon().click();
         cart.getProceedToCheckoutButton().click();
@@ -58,7 +61,9 @@ public class QADemoCheckoutTest extends BaseClass {
 		
 		Assert.assertTrue(checkout.getPlaceOrderButton().isDisplayed(), "Place Order button is not displayed");
 		Reporter.log("Smoke passed: all Checkout elements are displayed", true);
-		checkout.getCartcc().click();
+		
+		checkout.getBackToCartLink().click();
+		
 		cart.getClearCart().click();
 		Assert.assertEquals(cart.getEmptyCartMessage().isDisplayed(),true);
 		wait.until(ExpectedConditions.visibilityOf(cart.getEmptyCartMessage()));
@@ -84,7 +89,7 @@ public class QADemoCheckoutTest extends BaseClass {
                 String cardNumber,
                 String expiryDate,
                 String cvv,
-                String nameOnCard) {
+                String nameOnCard) throws InterruptedException {
 
             WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(15));
             QADemoLoginPage login = new QADemoLoginPage(driver);
@@ -92,11 +97,13 @@ public class QADemoCheckoutTest extends BaseClass {
             QADemoCartPage cart = new QADemoCartPage(driver);
             QADemoCheckOutPage checkout = new QADemoCheckOutPage(driver);
             QADemoOrderPage order = new QADemoOrderPage(driver);
+            JavascriptExecutor js = (JavascriptExecutor) driver;
 
             login.login(Username,Password);
             wait.until(ExpectedConditions.urlContains("/catalog"));
             Reporter.log("Login successful", true);
-            product.getProduct().click();
+            product.clickProduct(1);
+            
             product.getAddToCart().click();
             Reporter.log("Product added to cart", true);
 
@@ -144,15 +151,17 @@ public class QADemoCheckoutTest extends BaseClass {
             login.login(Username,Password);
             wait.until(ExpectedConditions.urlContains("/catalog"));
             Reporter.log("Login successful", true);
-            product.getProduct().click();
+            
+            product.clickProduct(13);
             product.getAddToCart().click();
             Reporter.log("Product added to cart", true);
 
             product.getCartIcon().click();
             wait.until(ExpectedConditions.urlContains("/cart"));
-            Thread.sleep(3000);
+            
             cart.getContinueshopping().click();
-            product.getAddbutton().click();
+            product.clickProduct(3);
+            product.getAddToCart().click();
             product.getCartIcon().click();
             cart.getProceedToCheckoutButton().click();
 

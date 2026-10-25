@@ -35,7 +35,8 @@ public class QADemoLoginPage {
     private WebElement signInButton;
 
 	public WebElement getSignInLink() {
-		return signInLink;
+		return  wait.until(
+		        ExpectedConditions.elementToBeClickable(signInLink));
 	}
 
 	public WebElement getEmailField() {

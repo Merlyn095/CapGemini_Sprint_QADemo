@@ -8,15 +8,15 @@
       </run>
     </groups>
     <classes>
-      <class name="QADemoSignUp.QADemoSignUpTest">
+      <class name="QADemoCheckout.QADemoCheckoutTest">
         <methods>
           <include name="bM"/>
-          <include name="verifySignUp" invocation-numbers="0"/>
+          <include name="verifyCheckoutFields" invocation-numbers="0"/>
           <include name="aM"/>
           <include name="bC"/>
           <include name="aC"/>
         </methods>
-      </class> <!-- QADemoSignUp.QADemoSignUpTest -->
+      </class> <!-- QADemoCheckout.QADemoCheckoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

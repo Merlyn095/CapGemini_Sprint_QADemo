@@ -3,19 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="QADemoSignUp.QADemoSignUpTest">
+      <class name="QADemoCart.QADemoCartTest">
         <methods>
           <include name="bM"/>
-          <include name="verifySignUp" invocation-numbers="0"/>
           <include name="aM"/>
+          <include name="verifyProceedToCheckout" invocation-numbers="0"/>
           <include name="aT"/>
           <include name="bC"/>
           <include name="bS"/>
+          <include name="verifyProductIncrease" invocation-numbers="0"/>
           <include name="aC"/>
           <include name="bT"/>
           <include name="aS"/>
+          <include name="verifyCountinueShopping" invocation-numbers="0"/>
         </methods>
-      </class> <!-- QADemoSignUp.QADemoSignUpTest -->
+      </class> <!-- QADemoCart.QADemoCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
