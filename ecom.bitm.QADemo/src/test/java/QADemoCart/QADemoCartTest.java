@@ -117,7 +117,7 @@ public class QADemoCartTest  extends BaseClass{
         
 		login.login(Username, Password);
 		wait.until(ExpectedConditions.urlContains("/catalog"));
-		product.clickProduct(7);
+		product.clickProduct(10);
 		product.getAddToCart().click();
 		product.getCartIcon().click();
 		Assert.assertEquals(cart.getShoppingCartHeading().isDisplayed(), true);	

@@ -47,7 +47,7 @@ public class QADemoProduct extends BaseClass {
 		
 		login.login(Username, Password);
 		wait.until(ExpectedConditions.urlContains("/catalog"));
-		product.clickProduct(7);
+		product.clickProduct(10);
 		Assert.assertEquals(driver.getCurrentUrl().contains("products/"), true);
 		Reporter.log("Product page is displayed",true);
 		order.getLogoutButton().click();
@@ -65,7 +65,7 @@ public class QADemoProduct extends BaseClass {
         
 		login.login(Username, Password);
 		wait.until(ExpectedConditions.urlContains("/catalog"));
-		product.clickProduct(7);
+		product.clickProduct(10);
 		product.getAddToCart().click();
 		product.getCartIcon().click();
 		Assert.assertEquals(cart.getCartItem().isDisplayed(), true);

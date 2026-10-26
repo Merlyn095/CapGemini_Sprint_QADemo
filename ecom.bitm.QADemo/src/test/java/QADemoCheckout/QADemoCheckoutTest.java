@@ -43,7 +43,7 @@ public class QADemoCheckoutTest extends BaseClass {
         Assert.assertTrue(driver.getCurrentUrl().contains("/catalog"),"Login failed");
         Reporter.log("Login credentials entered", true);
         
-        product.clickProduct(7);
+        product.clickProduct(13);
         
         product.getAddToCart().click();
         product.getCartIcon().click();
@@ -152,7 +152,7 @@ public class QADemoCheckoutTest extends BaseClass {
             wait.until(ExpectedConditions.urlContains("/catalog"));
             Reporter.log("Login successful", true);
             
-            product.clickProduct(13);
+            product.clickProduct(10);
             product.getAddToCart().click();
             Reporter.log("Product added to cart", true);
 
