@@ -47,7 +47,7 @@ public class QADemoSignUpPage {
     @FindBy(xpath="//p[text()='Please enter a valid email address']")
     private WebElement errorEmail;
     
-    @FindBy(xpath="//p[text()='Please enter a valid email address']")
+    @FindBy(xpath="//p[text()='Password must contain at least one uppercase letter']")
     private WebElement errorPassword;
     
     

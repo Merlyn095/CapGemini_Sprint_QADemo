@@ -25,10 +25,7 @@ public class BaseClass {
 	public WebDriverUtility wu=new WebDriverUtility();
 	public FileUtility  fu=new FileUtility();
 	
-	@BeforeSuite
-	public void bS() {
-		Reporter.log("Open Database Connectivity",true);
-	}
+	
 	@BeforeTest
 	public void bT() {
 		Reporter.log("pre-condition", true);
@@ -72,10 +69,7 @@ public class BaseClass {
 	}
 
 
-	@AfterSuite
-	public void aS() {
-		Reporter.log("Close - DataBase Connectivity", true);
-	}
+	
 
 
 }
